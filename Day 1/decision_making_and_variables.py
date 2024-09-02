@@ -195,6 +195,28 @@ print("Check membership", "free" in txt, "free" not in txt)
 """
 
 
+# List -> Python list is used to store multiple items in a single variable.
 
+thisList = [ "Apple", "Orange", "Banana", "Cherry", "Mango", "Apple" ]
 
+print("LIst", thisList)
 
+print("length", len(thisList))
+
+print("type", type(thisList))
+
+print("Access item", thisList[1])
+
+print("last item", thisList[-1])
+
+print("Range", thisList[2:5])
+
+print("Leaving first index", thisList[:2])
+
+print("Leaving end value", thisList[2:])
+
+print("range of negative indexes:", thisList[-3:])
+
+if "Apple" in thisList:
+    print("yes, apple is present in this list")
+    
